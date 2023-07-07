@@ -2,7 +2,6 @@ name: Continious Integration
 
 on:
   push:
-  pull_request:
 
 jobs:
   ci:
@@ -16,7 +15,7 @@ jobs:
       - name: "Install node"
           uses: actions/setup-node@v3
           with:
-            node-version: "19"
+            node-version: '19'
 
       - name: "Install dependencies"
         run: npm install
@@ -28,7 +27,7 @@ jobs:
           run: npx eslint index.js
 
       - name: "Publish to NPM"
-          - uses: JS-DevTools/npm-publish@v2
-              with:
-                token: ${{ secrets.NPM_TOKEN }}
+        uses: JS-DevTools/npm-publish@v2
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
 
