@@ -1,0 +1,19 @@
+{
+  "name": "mehdi-exo-library-js",
+  "version": "1.0.0",
+  "description": "An exercice to learn how to create a library js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YesIDo49/exo-library-js.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YesIDo49/exo-library-js/issues"
+  },
+  "homepage": "https://github.com/YesIDo49/exo-library-js#readme"
+}
